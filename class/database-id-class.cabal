@@ -1,6 +1,6 @@
 cabal-version:       >=1.10
 name:                database-id-class
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Class for types with a database id
 description:         Class for types with a database id
 -- bug-reports:
@@ -12,6 +12,7 @@ copyright:           2019 Obsidian Systems LLC
 category:            Database
 build-type:          Simple
 extra-source-files:  CHANGELOG.md
+                     README.md
 
 library
   exposed-modules: Database.Id.Class

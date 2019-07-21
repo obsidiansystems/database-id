@@ -1,6 +1,6 @@
 cabal-version:       >=1.10
 name:                database-id-groundhog
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            HasId/Groundhog interop
 description:         A class and some instances for HasId/Groundhog interoperation
 license:             BSD3
@@ -10,7 +10,8 @@ maintainer:          maintainer@obsidian.systems
 copyright:           2019 Obsidian Systems LLC
 category:            Database
 build-type:          Simple
-extra-source-files:  CHANGELOG.md
+extra-source-files: CHANGELOG.md
+                    README.md
 
 library
   exposed-modules: Database.Id.Groundhog
