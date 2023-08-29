@@ -15,7 +15,7 @@ extra-source-files: CHANGELOG.md
 
 library
   exposed-modules: Database.Id.Obelisk.Route
-  build-depends: base >=4.11 && <4.13
+  build-depends: base >=4.11 && <4.15
                , obelisk-route
                , database-id-class
                , mtl
